@@ -11,9 +11,7 @@ jobs:
   labeler:
     runs-on: ubuntu-latest
     steps:
-      -
-        name: Checkout
+      - name: Checkout
         uses: actions/checkout@v2
-      -
-        name: Run Labeler
+      - name: Run Labeler
         uses: crazy-max/ghaction-github-labeler@v3.1.1
